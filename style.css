@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ecf0f3;
+  outline: none;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* 
+.button {
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid #312929;
+  border-radius: 9px;
+  cursor: pointer;
+  background-color: #363535;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 22%;
+  font-weight: bolder;
+  transition: .3s;
+  box-shadow: 0px 4px 8px 0 rgba(255, 255, 255, 0.2);
+}
+
+.button:hover {
+  background-color: pink;
+  box-shadow: 0px 16px 32px 0px rgba(255, 255, 255, 0.2);
+}
+
+.gun {}
+
+.dark {
+  padding: 16px;
+  color: #72ff8d;
+  font-weight: 500;
+}
+
+.row {
+  margin: 8px 0;
+} */
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  /* width: 291px;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 5px;
+  outline: none;
+  text-align: right; */
+  background-color: #ecf0f3;
+  padding: 15px;
+  border-radius: 17px;
+  box-shadow: inset 5px 5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, .16);
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+
+}
+
+input {
+  grid-column: span 4;
+  height: 70px;
+  width: 260px;
+  background-color: #ecf0f3;
+  box-shadow: inset -5px -5px 12px #ffffff, inset 5px 5px 12px rgba(0, 0, 0, .16);
+  border: none;
+  border-radius: 11px;
+  color: rgb(70, 70, 70);
+  font-size: 50px;
+  text-align: end;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.button {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background-color: #ecf0f3;
+  box-shadow: -5px -5px 12px #ffffff,
+    5px 5px 12px rgba(0, 0, 0, .16);
+  border: none;
+  margin: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.button:hover {
+  background-color: pink;
+}
+
+.aqua {
+  width: 115px;
+  border-radius: 40px;
+  background-color: #ecf0f3;
+  box-shadow: -5px -5px 12px #ffffff,
+    5px 5px 12px rgba(0, 0, 0, .16);
+  color: #11dfb9;
+
+}
+
+.auto-typed {
+  display: flex;
+  align-self: center;
+}
+
+.dark {
+  color: #11dfb9;
+  font-weight: 600;
+}
+
+/* .ca {} */
+
+::placeholder {
+  margin-left: 15px;
+}
